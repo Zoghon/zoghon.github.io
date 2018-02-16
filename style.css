@@ -27,14 +27,7 @@ a {
 	cursor: pointer;
 }
 img {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	min-width: 100%;
-	min-height: 100%;
-	width: auto;
-	height: auto;
+	margin: 0px 20px;
 }
 #veil {
 	background-color: rgba(0, 0, 0, 0.4);
