@@ -13,3 +13,50 @@ video {
  width: auto;
  height: auto;
  }
+
+@keyframes scroll {
+	100% {
+		background-position: 0px -3000px;
+	}
+}
+@-webkit-keyframes scroll {
+	100% {
+		background-position: 0px -3000px;
+	}
+}
+@-moz-keyframes scroll {
+	100% {
+		background-position: 0px -3000px;
+	}
+}
+html {
+	background: url('https://cdn.discordapp.com/attachments/277129725342908417/413899242512318466/375055-neon-aesthetic.jpg');
+	}
+body {
+	color: white;
+	font-family: "Arial", sans-serif;
+	font-size: 20px;
+}
+a {
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+}
+img {
+	margin: 0px 20px;
+}
+#veil {
+	background-color: rgba(0, 0, 0, 0.4);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+#center {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
