@@ -17,7 +17,7 @@ html {
 	background: url('images/rain.gif');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-position: center; 
+	background-position: 100% 100%; 
 	}
 body {
 	color: white;
