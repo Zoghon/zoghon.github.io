@@ -18,11 +18,13 @@ html {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	height: 100%;
 	}
 body {
 	color: white;
 	font-family: "Timmana", sans-serif;
 	font-size: 20px;
+	height: 100%;
 }
 a {
 	color: white;
