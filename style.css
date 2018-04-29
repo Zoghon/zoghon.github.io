@@ -1,8 +1,9 @@
 body {
 	background: #000000;
-	background-image: url(images/richbrian.gif);
+	background-image: url(images/richinbrian.gif);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100%;
+	background-position: absolute;
 
 }
 #center {
