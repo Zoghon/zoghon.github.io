@@ -1,4 +1,3 @@
-<script language="JavaScript">
   window.onload = function() {
     document.addEventListener("contextmenu", function(e){
       e.preventDefault();
@@ -36,4 +35,3 @@
       return false;
     }
   };
-</script>
