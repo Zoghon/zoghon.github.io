@@ -1,9 +1,9 @@
 body {
 	background: #000000;
-	background-image: url(images/strange.gif);
+	background-image: url(images/sleep.gif);
 	background-repeat: no-repeat;
 	background-size: 100%;
-	background-position: absolute;
+	background-position: all;
 
 
 }
