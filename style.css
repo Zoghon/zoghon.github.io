@@ -9,6 +9,12 @@
     -o-transform: translate(-50%, -50%);
 }
 
+#music  {
+	var audio = document.currentScript.parentElement;
+        audio.volume = 0.2;
+
+}	
+
 body  {
   background: #000000
 }
