@@ -9,11 +9,6 @@
     -o-transform: translate(-50%, -50%);
 }	
 
-body {
-  background: #FFA7B6
-}
-
-
 a:link {
     color: white;
     background-color: transparent;
