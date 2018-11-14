@@ -9,27 +9,6 @@
     -o-transform: translate(-50%, -50%);
 }	
 
-a:link {
-    color: white;
-    background-color: transparent;
-    text-decoration: none;
-}
-a:visited {
-    color: white;
-    background-color: transparent;
-    text-decoration: none;
-}
-a:hover {
-    color: white;
-    background-color: transparent;
-    text-decoration: none;
-}
-a:active {
-    color: white;
-    background-color: transparent;
-    text-decoration: none;
-}
-
 #font {
     font-style: oblique;
     font-family: 'Muli', sans-serif;
@@ -37,7 +16,7 @@ a:active {
     
 }
 
-.section {
+#video {
     position: absolute;
     top: 0;
     bottom: 0;
