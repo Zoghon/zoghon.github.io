@@ -1,16 +1,8 @@
-  #video {
-      position: fixed;
-      top: 0;
-      bottom: 0;
-      right: 0;
-      left: 0;
-      margin: auto;
-  }
-  
   body {
-      background: #ffd5d6;
+    background: #101010;
+    background-image: 'images/sunset.jpg';
   }
-  
+
   h1 {
     color: #fff;
     font-style: oblique;
@@ -18,15 +10,11 @@
     font-weight: 600;
     font-style: italic;
     position: center;
-     
+
   }
-  
+
   a:link, a:visited {
-      background-color: #f00;
-      color: #fff;
-      padding: 7px 15px;
-      text-align: center; 
-      text-decoration: none;
-      display: inline-block;
+    color: #fff;
+    position: center;
+    text-align: center;
   }
-  
