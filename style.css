@@ -1,20 +1,24 @@
-  body {
-    background: #101010;
-    background-image: 'images/sunset.jpg';
-  }
+body {
+  background: #101010;
+  background-image: url(images/sunset.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
-  h1 {
-    color: #fff;
-    font-style: oblique;
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight: 600;
-    font-style: italic;
-    position: center;
 
-  }
+h1 {
+  color: #fff;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
 
-  a:link, a:visited {
-    color: #fff;
-    position: center;
-    text-align: center;
-  }
+a:link, a:visited, a:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
+.center {
+  text-align: center;
+  position: center;
+}
