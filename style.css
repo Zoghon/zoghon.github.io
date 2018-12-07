@@ -2,6 +2,7 @@ body {
   background: #101010;
   background-image: url(images/sunset.jpg);
   background-repeat: no-repeat;
+  background-size: auto;
   background-position: center;
 }
 
@@ -22,3 +23,7 @@ a:link, a:visited, a:hover{
   text-align: center;
   position: center;
 }
+
+html, body, a { cursor:url("http://i.imgur.com/2qleX.jpg"), auto !important; }
+ 
+a:hover{cursor:url("http://i.imgur.com/IepP2.jpg"), auto !important; }
