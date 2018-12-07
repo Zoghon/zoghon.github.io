@@ -1,9 +1,9 @@
 body {
-  background: #101010;
-  background-image: url(images/sunset.jpg);
+  background: #400F0F;
+  background-image: url(images/beach.gif);
   background-repeat: no-repeat;
-  background-size: auto;
-  background-position: center;
+  background-position: absolute;
+  background-size: 100%;
 }
 
 
@@ -12,16 +12,37 @@ h1 {
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 600;
   font-style: italic;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
 }
 
-a:link, a:visited, a:hover{
+a:link, a:visited{
   color: #fff;
   text-decoration: none;
+  background-color: #8c1a1a;
+  padding: 5px 12px;
+  display: inline-block;
+  border-radius: 12px;
 }
 
-.center {
-  text-align: center;
-  position: center;
+a:hover {
+  background-color: #400F0F;
+
+}
+
+.center { 
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);;   
 }
 
 html, body, a { cursor:url("http://i.imgur.com/2qleX.jpg"), auto !important; }
