@@ -3,7 +3,8 @@ body {
   background-image: url(images/beach.gif);
   background-repeat: no-repeat;
   background-position: absolute;
-  background-size: 100%;
+  background-size: cover;
+  background-blend-mode: exclusion;
 }
 
 
