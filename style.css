@@ -1,18 +1,17 @@
 body {
   background: #400F0F;
-  background-image: url(images/beach.gif);
+  background-image: url(images/matrix.gif);
   background-repeat: no-repeat;
-  background-position: absolute;
+  background-position: center;
   background-size: cover;
-  background-blend-mode: exclusion;
+  background-attachment: fixed;
 }
-
 
 h1 {
   color: #fff;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: 600;
-  font-style: italic;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 550;
+  font-size: 40px;
   text-shadow:
   -1px -1px 0 #000,
   1px -1px 0 #000,
@@ -23,10 +22,16 @@ h1 {
 a:link, a:visited{
   color: #fff;
   text-decoration: none;
-  background-color: #8c1a1a;
+  background-color: maroon;
   padding: 5px 12px;
   display: inline-block;
-  border-radius: 12px;
+  border-radius: 4px;  
+  box-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000; 
+  
 }
 
 a:hover {
@@ -35,7 +40,7 @@ a:hover {
 }
 
 .center { 
-	position: absolute;
+	position: fixed;
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%);
