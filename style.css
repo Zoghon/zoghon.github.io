@@ -1,9 +1,9 @@
 body {
-  background: rgb(26, 1, 1);
-  background-image: url(images/mrrobot7.gif);
+  background: #000;
+  background-image: url(images/queen.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 45%;
   background-attachment: fixed;
 }
 
