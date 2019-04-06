@@ -1,11 +1,9 @@
 body {
   background: #000;
-  background-image: url(images/bed.gif);
+  background-image: url(images/beach8.gif);
   background-repeat: no-repeat;
-  background-position-x: 95%;
-  background-position-y: 50%;
-  background-size: 45%;
-  background-attachment: fixed;
+  background-size: cover;
+  background-position-y: 14%;
   
 }
 
@@ -19,23 +17,28 @@ h1 {
 a:link, a:visited{
   text-decoration: none;
   background-color: transparent;
-  padding: 20px 20px;
+  padding: 20px;
   display: inline-flex;
-  border-radius: 12px;
 }
 
-div { 
-  position: relative;
-  bottom: 5%;
-  left: 5%;
-  right: 50%;
-  transform: translate(0%, 10%)
+div.column2 { 
+  position: fixed;
+  left: 10%;
+  top: 30%;
 }
 
-.button {
-  float: left;
-  padding: 10px;
+div.column1 {
+  position: fixed;
+  left: 13%;
+  top: 10%;
 }
 
-html, body, a { cursor:url("http://i.imgur.com/2qleX.jpg"), auto !important; }
-a:hover{cursor:url("http://i.imgur.com/IepP2.jpg"), auto !important;
+div.person {
+  position: fixed;
+  left: 65%;
+  top: 20%;
+  filter: drop-shadow(15px 15px 0px rgb(22, 22, 22));
+}
+
+html, body, a { cursor:url("Wii\ Cursor.cur"), auto !important; }
+a:hover{cursor:url("Wii\ Cursor.cur"), auto !important;}
