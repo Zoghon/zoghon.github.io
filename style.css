@@ -1,6 +1,10 @@
+html, body, a {
+ cursor: url('images/Wii Cursor.png'), auto !important;
+}
+
 body {
   background: #000;
-  background-image: url(images/beach8.gif);
+  background-image: url("images/beach8.gif");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: 14%;
@@ -39,6 +43,3 @@ div.person {
   top: 20%;
   filter: drop-shadow(15px 15px 0px rgb(22, 22, 22));
 }
-
-html, body, a { cursor:url("Wii\ Cursor.cur"), auto !important; }
-a:hover{cursor:url("Wii\ Cursor.cur"), auto !important;}
