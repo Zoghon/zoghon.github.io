@@ -4,12 +4,12 @@ html, body, a {
 
 body {
   background: #000;
-  background-image: url("images/beach8.gif");
+  background-image: url("images/citycar.gif");
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
-  background-position-y: 14%;
-  
-}
+  background-attachment: fixed;
+  }
 
 h1 {
   color: #fff;
@@ -29,17 +29,19 @@ div.column2 {
   position: fixed;
   left: 10%;
   top: 30%;
+  filter: drop-shadow(4px 4px 0px rgb(0, 0, 0));
 }
 
 div.column1 {
   position: fixed;
   left: 13%;
   top: 10%;
+  filter: drop-shadow(4px 4px 0px rgb(0, 0, 0));
 }
 
 div.person {
   position: fixed;
   left: 65%;
-  top: 20%;
-  filter: drop-shadow(15px 15px 0px rgb(22, 22, 22));
+  top: 15%;
+  filter: drop-shadow(15px 15px 0px rgb(233, 87, 87));
 }
