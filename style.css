@@ -4,6 +4,12 @@ html, body, a {
  cursor: url('images/Wii Cursor.png'), auto !important;
 }
 
+a:hover{cursor:url("images/wii-help-ccw.png"), auto !important; }
+
+a:progress {
+  cursor:url("images/Wii\ Cursor\ 2\ Loading...ani"), auto !important; 
+}
+
 body, html {
  height: calc(100% - 2em);
 
@@ -42,7 +48,7 @@ body {
   
 .text {
   color: #fff;
-  font-family: 'Corbel';
+  font-family: 'Corbel', sans-serif;
   font-size: 20px;
   text-align: center;
   text-shadow: 5px 5px 3px  #000;
@@ -101,6 +107,7 @@ a:link, a:visited{
   bottom: 50%;
   right: 50%;
   text-align: center;
+  cursor: url('images/wii-grab.png'), auto !important;
 }
 
 .window { 
