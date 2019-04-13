@@ -1,7 +1,7 @@
 @import url('fonts/HelveticaNeue-Roman.woff');
 
 html, body, a {
- cursor: url('images/Wii Cursor.png'), auto !important;
+ cursor: url('images/wii-cursor.png'), auto !important;
 }
 
 a:hover{cursor:url("images/wii-help-ccw.png"), auto !important; }
