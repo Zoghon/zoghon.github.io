@@ -1,22 +1,18 @@
 @import url('fonts/HighTide.ttf');
 
-html, body, a {
+html, head, div, body, a {
  cursor: url('images/wii-cursor.png'), auto !important;
 }
 
 a:hover{cursor:url("images/wii-help-ccw.png"), auto !important; }
 
-a:progress {
+html, head, div, body, a:progress {
   cursor:url("images/Wii\ Cursor\ 2\ Loading...ani"), auto !important; 
 }
 
 body {
   background-repeat: no-repeat;
-  background-position: center;
-  background-color: #000; 
-  background-attachment: fixed;
-  background-position-x: 50%;
-  background-position-y: 50%;
+  background-color: #000;
 }
 
 html {
@@ -30,12 +26,6 @@ a:link, a:visited{
   text-decoration: none;
   background-color: transparent;
   color: #E3CD21;
-}
-
-.spotify {
-  position: fixed;
-  bottom: 0%;
-  filter: drop-shadow(3px 3px 2px  #000);
 }
 
 .person {
@@ -53,13 +43,6 @@ a:link, a:visited{
 	top: 50%;
   transform: translate(-50%, -50%);
   word-spacing: 60px;
-}
-
-.note {
-  position: fixed;
-  left: 50%;
-  top: 50%;
-  cursor: url('images/wii-grab.png'), auto !important;
 }
 
 .zoghon {
