@@ -34,7 +34,8 @@ a:link, a:visited{
 	top: 50%;
   transform: translate(-50%, -50%);
   border: 1px solid #fff;
-  filter: brightness(80%) blur(1px);
+  filter: brightness(70%);
+  line-height: 0;
 }
 
 .links {
