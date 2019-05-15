@@ -34,14 +34,22 @@ a:link, a:visited{
 	top: 50%;
   transform: translate(-50%, -50%);
   border: 1px solid #fff;
-  filter: brightness(70%);
+  filter: brightness(70%) blur(0px);
   line-height: 0;
 }
 
 .links {
   position: absolute;
 	left: 50%;
-	top: 50%;
+	top: 46%;
+  transform: translate(-50%, -50%);
+  word-spacing: 60px;
+}
+
+.links2 {
+  position: absolute;
+	left: 50%;
+	top: 54%;
   transform: translate(-50%, -50%);
   word-spacing: 60px;
 }
@@ -53,4 +61,5 @@ a:link, a:visited{
 	left: 50%;
 	top: 5%;
   transform: translate(-50%, -50%);
+  text-decoration: none;
 }
