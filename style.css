@@ -1,4 +1,4 @@
-@import url('fonts/HighTide.ttf');
+@import url('fonts/New\ Barcode\ Font\ tfb.ttf');
 
 html, head, div, body, a {
  cursor: url('images/wii-cursor.png'), auto !important;
@@ -11,8 +11,11 @@ html, head, div, body, a:progress {
 }
 
 body {
+  background: url('images/beach4.gif');
+  background-size: 100%;
+  background-blend-mode: multiply;
   background-repeat: no-repeat;
-  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 html {
@@ -43,7 +46,7 @@ a:link, a:visited{
 	left: 50%;
 	top: 46%;
   transform: translate(-50%, -50%);
-  word-spacing: 60px;
+  word-spacing: 85px;
 }
 
 .links2 {
@@ -55,11 +58,10 @@ a:link, a:visited{
 }
 
 .zoghon {
-  color: red;
   font-family: 'Libre Barcode 128 Text', cursive;
   position: absolute;
 	left: 50%;
-	top: 5%;
+	top: 6%;
   transform: translate(-50%, -50%);
   text-decoration: none;
 }
