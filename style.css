@@ -15,6 +15,7 @@ body {
   background-size: 100%;
   background-blend-mode: multiply;
   background-repeat: no-repeat;
+  background-size: cover;
   background-color: rgba(0, 0, 0, 0.94);
 }
 
