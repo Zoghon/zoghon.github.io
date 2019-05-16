@@ -11,12 +11,11 @@ html, head, div, body, a:progress {
 }
 
 body {
-  background: url('images/beach4.gif');
-  background-size: 100%;
+  background: url('images/citynight2.gif');
   background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.70);
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: rgba(0, 0, 0, 0.94);
 }
 
 html {
@@ -42,27 +41,41 @@ a:link, a:visited{
   line-height: 0;
 }
 
-.links {
+.link {
   position: absolute;
-	left: 50%;
-	top: 46%;
+	left: 480px;
+	top: 215px;
   transform: translate(-50%, -50%);
-  word-spacing: 85px;
 }
 
-.links2 {
+.link2 {
   position: absolute;
-	left: 50%;
-	top: 54%;
+	left: 486px;
+	top: 240px;
   transform: translate(-50%, -50%);
-  word-spacing: 60px;
+}
+
+.link3 {
+  position: absolute;
+	left: 488px;
+	top: 264px;
+  transform: translate(-50%, -50%);
+}
+
+.link4 {
+  position: absolute;
+	left: 490px;
+	top: 288px;
+  transform: translate(-50%, -50%);
+}
+
+.link5 {
+  position: absolute;
+	left: 508px;
+	top: 312px;
+  transform: translate(-50%, -50%);
 }
 
 .zoghon {
   font-family: 'Libre Barcode 128 Text', cursive;
-  position: absolute;
-	left: 50%;
-	top: 6%;
-  transform: translate(-50%, -50%);
-  text-decoration: none;
 }
