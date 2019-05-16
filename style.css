@@ -41,39 +41,12 @@ a:link, a:visited{
   line-height: 0;
 }
 
-.link {
+.links {
   position: absolute;
-	left: 480px;
-	top: 215px;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
-}
-
-.link2 {
-  position: absolute;
-	left: 486px;
-	top: 240px;
-  transform: translate(-50%, -50%);
-}
-
-.link3 {
-  position: absolute;
-	left: 488px;
-	top: 264px;
-  transform: translate(-50%, -50%);
-}
-
-.link4 {
-  position: absolute;
-	left: 490px;
-	top: 288px;
-  transform: translate(-50%, -50%);
-}
-
-.link5 {
-  position: absolute;
-	left: 508px;
-	top: 312px;
-  transform: translate(-50%, -50%);
+  word-spacing: 10px;
 }
 
 .zoghon {
