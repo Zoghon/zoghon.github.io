@@ -13,7 +13,7 @@ html, head, div, body, a:progress {
 body {
   background: url('');
   background-blend-mode: multiply;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgb(255, 160, 200);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -22,7 +22,7 @@ body {
 #font {
   color: rgb(255, 252, 100);
   font-family: serif, bold;
-  font-size: 25px;
+  font-size: 30px;
   text-shadow:  2.3px 1px 1px rgba(0, 0, 0, 1.945);
 }
 
@@ -37,7 +37,7 @@ a:link, a:visited{
 	left: 50%;
 	top: 50%;
   transform: translate(-50%, -50%);
-  filter: opacity(85%) blur(0px);
+  filter: opacity(80%) blur(0px);
   line-height: 0;
 }
 
