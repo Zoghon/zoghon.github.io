@@ -1,35 +1,33 @@
-@import url('fonts/New\ Barcode\ Font\ tfb.ttf');
+@font-face { font-family: Chihaya; src: url('fonts/chihaya.ttf'); }
+@font-face { font-family: Honokamarugo; src: url('fonts/honokamarugo.ttf'); } 
+@font-face { font-family: HighTide; src: url('fonts/HighTide.ttf'); }
+@font-face { font-family: EightFiveOne; src: url('fonts/851.ttf'); }
+@font-face { font-family: HelvetiaNeueRoman; src: url('fonts/HelveticaNeue-Roman.woff'); }
+@font-face { font-family: GeorgiaNew; src: url('fonts/georgia.ttf'); }
+@font-face { font-family: Barcode; src: url('fonts/New\ Barcode\ Font\ tfb.ttf'); }
 
 html, head, div, body, a {
- cursor: url('images/wii-cursor.png'), auto !important;
+ cursor: url('cursor/wii-cursor.png'), auto !important;
 }
 
-a:hover{cursor:url("images/wii-help-ccw.png"), auto !important; }
+a:hover{cursor:url("cursor/wii-help-ccw.png"), auto !important; }
 
 html, head, div, body, a:progress {
-  cursor:url("images/Wii\ Cursor\ 2\ Loading...ani"), auto !important; 
+  cursor:url("cursor/Wii\ Cursor\ 2\ Loading...ani"), auto !important; 
 }
 
 body {
   background: url('');
+  background-color: rgb(255, 245, 111);
   background-blend-mode: multiply;
-  background-color: rgb(255, 160, 200);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 
-#font {
-  color: rgb(255, 252, 100);
-  font-family: serif, bold;
-  font-size: 30px;
-  text-shadow:  2.3px 1px 1px rgba(0, 0, 0, 1.945);
-}
-
 a:link, a:visited{
   text-decoration: none;
-  background-color: transparent;
-  color: rgb(255, 252, 100);
+  color: inherit;
 }
 
 .person {
@@ -39,18 +37,26 @@ a:link, a:visited{
   transform: translate(-50%, -50%);
   filter: opacity(80%) blur(0px);
   line-height: 0;
-  box-shadow: 8px 8px #000;
 }
 
 .links {
-  font-size: 90%;
+  color: rgb(255, 255, 232);
+  font-size: 35px;
+  font-family: Chihaya;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  word-spacing: 10px;
+  text-shadow:  2.5px 2.4px 1px rgba(0, 0, 0, 1.945);
 }
 
 .zoghon {
-  font-family: 'Libre Barcode 128 Text', cursive;
+  color: red;
+  font-size: 90px;
+  font-family: EightFiveOne;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow:  2.5px 2.4px 1px rgba(0, 0, 0, 1.945);
 }
