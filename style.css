@@ -1,10 +1,5 @@
-@font-face { font-family: Chihaya; src: url('fonts/chihaya.ttf'); }
-@font-face { font-family: Honokamarugo; src: url('fonts/honokamarugo.ttf'); } 
 @font-face { font-family: HighTide; src: url('fonts/HighTide.ttf'); }
-@font-face { font-family: EightFiveOne; src: url('fonts/851.ttf'); }
-@font-face { font-family: HelvetiaNeueRoman; src: url('fonts/HelveticaNeue-Roman.woff'); }
 @font-face { font-family: Fat; src: url('fonts/fat.ttf'); }
-@font-face { font-family: Barcode; src: url('fonts/New\ Barcode\ Font\ tfb.ttf'); }
 
 html, head, div, body, a {
  cursor: url('cursor/wii-cursor.png'), auto !important;
@@ -18,7 +13,7 @@ html, head, div, body, a:progress {
 
 body {
   background: url('');
-  background-color: rgb(111, 226, 255);
+  background-color: rgb(91, 222, 255);
   background-blend-mode: multiply;
   background-repeat: no-repeat;
   background-size: cover;
@@ -57,7 +52,7 @@ a:link, a:visited{
   word-spacing: 20px;
   position: absolute;
   top: 50%;
-  left: 30%;
+  left: 50%;
   transform: translate(-50%, -50%);
   -webkit-text-stroke: 1.5px black;
   text-shadow:
@@ -70,7 +65,7 @@ a:link, a:visited{
 }
 
 .zoghon {
-  color: red;
+  color: yellow;
   font-size: 90px;
   font-family: HighTide;
   position: absolute;
@@ -78,4 +73,20 @@ a:link, a:visited{
   left: 50%;
   transform: translate(-50%, -50%);
   filter: blur(0.5px);
+}
+
+video#bgvid {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  -ms-filter: blur(1px);
+  filter: blur(1px);
+
 }
