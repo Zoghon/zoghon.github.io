@@ -13,7 +13,7 @@ html, head, div, body, a:progress {
 
 body {
   background: url('');
-  background-color: rgb(91, 222, 255);
+  background-color: rgb(255, 91, 91);
   background-blend-mode: multiply;
   background-repeat: no-repeat;
   background-size: cover;
@@ -86,7 +86,8 @@ video#bgvid {
   -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  -ms-filter: blur(1px);
-  filter: blur(1px);
+  -ms-filter: blur(0px);
+  filter: blur(0px);
+  outline: solid;
 
 }
