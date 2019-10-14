@@ -14,7 +14,7 @@ html, head, div, body, a:progress {
 }
 
 body {
-  background: url('');
+  background: url('images/playboy.png');
   background-color: rgb(255, 100, 100);
   background-blend-mode: hard-light;
   background-repeat: no-repeat;
