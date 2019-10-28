@@ -14,11 +14,13 @@ html, head, div, body, a:progress {
 }
 
 body {
-  background: url('images/spacedandy1.jpg');
+  background: url('images/akira.jpg');
   background-color: rgb(0, 0, 0);
-  background-position: center;
+  background-position: absolute;
+  background-position-x: 50%;
+  background-position-y: 50%;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-attachment: fixed;
 }
 
@@ -34,7 +36,7 @@ a:link, a:visited{
   transform: translate(-50%, -50%);
   filter: opacity(100%) blur(0px);
   line-height: 0;
-  bordr: 3px solid #000;
+  #border: 3px solid #000;
   #box-shadow:
   10px 10px 0 #000,
   9px 9px 0 #000,
@@ -50,12 +52,11 @@ a:link, a:visited{
 
 .links {
   color: rgb(255, 255, 232);
-  font-size: 50px;
-  font-family: 'Nunito', sans-serif;
-  word-spacing: 25px;
+  font-size: 40px;
+  font-family: 'Jua', sans-serif;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 25%;
   transform: translate(-50%, -50%);
   -webkit-text-stroke: 2px black;
   text-shadow:
@@ -64,19 +65,33 @@ a:link, a:visited{
   2px 2px 0 #000,
   1px 1px 0 #000,
   0.5px 0.5px 0 #000;
-
+  background-color: rgb(255, 255, 255);
+  width: 10%;
+  padding: 2%;
+  box-shadow:
+  10px 10px 0 #000,
+  9px 9px 0 #000,
+  8px 8px 0 #000,
+  7px 7px 0 #000,
+  6px 6px 0 #000,
+  5px 5px 0 #000,
+  4px 4px 0 #000,
+  3px 3px 0 #000,
+  2px 2px 0 #000,
+  1px 1px 0 #000;
 }
 
+
 .zoghon {
-  color: yellow;
+  color: red;
   font-size: 98px;
-  font-family: 'Fugaz One', cursive;
+  font-family: eightfiveone;
   letter-spacing: px;
   position: absolute;
-  top: 13%;
-  left: 50%;
+  top: 50%;
+  left: 75%;
   transform: translate(-50%, -50%);
-  filter: blur(0.5px);
+  filter: blur(0.px);
   -webkit-text-stroke: 2px black;
   text-shadow: rgb(0, 0, 0) 0.670517px 0.670517px 0px, rgb(0, 0, 0) 1.67052px 1.67052px 0px, rgb(0, 0, 0) 2.67052px 2.67052px 0px, rgb(0, 0, 0) 3.67052px 3.67052px 0px, rgb(0, 0, 0) 4.67052px 4.67052px 0px, rgb(0, 0, 0) 5.67052px 5.67052px 0px, rgb(0, 0, 0) 6.67052px 6.67052px 0px, rgb(0, 0, 0) 7.67052px 7.67052px 0px, rgb(0, 0, 0) 8.67052px 8.67052px 0px;
 }
@@ -109,6 +124,9 @@ video#bgvid {
   -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  -ms-filter: blur(0px);
-  filter: opacity(75%);
+  -webkit-filter: blur(5%);
+  -moz-filter: blur(5%);
+  -o-filter: blur(5%);
+  -ms-filter: blur(5%);
+  filter: blur(5%);
 }
