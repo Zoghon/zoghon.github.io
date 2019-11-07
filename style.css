@@ -3,130 +3,108 @@
 @font-face { font-family: eightfiveone; src: url('fonts/851.ttf'); }
 @font-face { font-family: roman; src: url('fonts/HelveticaNeue-Roman.OTF'); }
 
-html, head, div, body, a {
- cursor: url('cursor/wii-cursor.png'), auto !important;
+html,head,div,body,a {
+cursor:url(cursor/wii-cursor.png),auto!important
 }
 
-a:hover{cursor:url("cursor/wii-help-ccw.png"), auto !important; }
+a:hover {
+cursor:url(cursor/wii-help-ccw.png),auto!important
+}
 
-html, head, div, body, a:progress {
-  cursor:url("cursor/Wii\ Cursor\ 2\ Loading...ani"), auto !important; 
+html,head,div,body,a:progress {
+cursor:url("cursor/Wii\ Cursor\ 2\ Loading...ani"),auto!important
 }
 
 body {
-  background: url('images/akira.jpg');
-  background-color: rgb(0, 0, 0);
-  background-position: absolute;
-  background-position-x: 50%;
-  background-position-y: 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+background:url(images/akira2.jpg);
+background-color:#000;
+background-position:absolute;
+background-position-x:50%;
+background-position-y:50%;
+background-repeat:no-repeat;
+background-size:cover;
+background-attachment:fixed
 }
 
-a:link, a:visited{
-  text-decoration: none;
-  color: inherit;
+a:link,a:visited {
+text-decoration:none;
+color: inherit;
+-webkit-text-stroke:1px #000;
 }
 
 .person {
-	position: absolute;
-	left: 50%;
-	top: 50%;
-  transform: translate(-50%, -50%);
-  filter: opacity(100%) blur(0px);
-  line-height: 0;
-  #border: 3px solid #000;
-  #box-shadow:
-  10px 10px 0 #000,
-  9px 9px 0 #000,
-  8px 8px 0 #000,
-  7px 7px 0 #000,
-  6px 6px 0 #000,
-  5px 5px 0 #000,
-  4px 4px 0 #000,
-  3px 3px 0 #000,
-  2px 2px 0 #000,
-  1px 1px 0 #000;
+position:absolute;
+left:50%;
+top:50%;
+transform:translate(-50%,-50%);
+filter:opacity(100%) blur(0px);
+line-height:0;
+#border:3px solid #000;
+#box-shadow:10px 10px 0 #000,9px 9px 0 #000,8px 8px 0 #000,7px 7px 0 #000,6px 6px 0 #000,5px 5px 0 #000,4px 4px 0 #000,3px 3px 0 #000,2px 2px 0 #000,1px 1px 0 #000
 }
 
 .links {
-  color: rgb(255, 255, 232);
-  font-size: 40px;
-  font-family: 'Jua', sans-serif;
-  position: absolute;
-  top: 50%;
-  left: 25%;
-  transform: translate(-50%, -50%);
-  -webkit-text-stroke: 2px black;
-  text-shadow:
-  4px 4px 0 #000,
-  3px 3px 0 #000,
-  2px 2px 0 #000,
-  1px 1px 0 #000,
-  0.5px 0.5px 0 #000;
-  background-color: rgb(255, 255, 255);
-  width: 10%;
-  padding: 2%;
-  box-shadow:
-  10px 10px 0 #000,
-  9px 9px 0 #000,
-  8px 8px 0 #000,
-  7px 7px 0 #000,
-  6px 6px 0 #000,
-  5px 5px 0 #000,
-  4px 4px 0 #000,
-  3px 3px 0 #000,
-  2px 2px 0 #000,
-  1px 1px 0 #000;
+color:#ffffe8;
+font-size:40px;
+font-family:'Fredoka One',cursive;
+filter:blur(0.3px);
+position:absolute;
+top:50%;
+left:25%;
+transform:translate(-50%,-50%);
+-webkit-text-stroke:1px #000;
+text-shadow:4px 4px 0 #000,3px 3px 0 #000,2px 2px 0 #000,1px 1px 0 #000,.5px .5px 0 #000;
+background-color:#fff;
+width:10%;
+padding:2%;
+border: 2px solid #000;
+box-shadow:10px 10px 0 #000,9px 9px 0 #000,8px 8px 0 #000,7px 7px 0 #000,6px 6px 0 #000,5px 5px 0 #000,4px 4px 0 #000,3px 3px 0 #000,2px 2px 0 #000,1px 1px 0 #000
 }
 
-
 .zoghon {
-  color: red;
-  font-size: 98px;
-  font-family: eightfiveone;
-  letter-spacing: px;
-  position: absolute;
-  top: 50%;
-  left: 75%;
-  transform: translate(-50%, -50%);
-  filter: blur(0.px);
-  -webkit-text-stroke: 2px black;
-  text-shadow: rgb(0, 0, 0) 0.670517px 0.670517px 0px, rgb(0, 0, 0) 1.67052px 1.67052px 0px, rgb(0, 0, 0) 2.67052px 2.67052px 0px, rgb(0, 0, 0) 3.67052px 3.67052px 0px, rgb(0, 0, 0) 4.67052px 4.67052px 0px, rgb(0, 0, 0) 5.67052px 5.67052px 0px, rgb(0, 0, 0) 6.67052px 6.67052px 0px, rgb(0, 0, 0) 7.67052px 7.67052px 0px, rgb(0, 0, 0) 8.67052px 8.67052px 0px;
+color:red;
+font-size:100px;
+font-family:;
+letter-spacing:1px;
+position:absolute;
+top:50%;
+left:75%;
+transform:translate(-50%,-50%);
+filter:blur(0.5px);
+-webkit-text-stroke:1px #000;
+text-shadow:#000 .670517px .670517px 0px,#000 1.67052px 1.67052px 0px,#000 2.67052px 2.67052px 0px,#000 3.67052px 3.67052px 0px,#000 4.67052px 4.67052px 0px,#000 5.67052px 5.67052px 0px,#000 6.67052px 6.67052px 0px,#000 7.67052px 7.67052px 0px,#000 8.67052px 8.67052px 0
 }
 
 video#bgvid {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  width: 600px;
-  height: auto;
-  z-index: -100;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  -ms-filter: blur(0px);
-  filter: blur(0px);
-  outline: solid;
-
+position:fixed;
+top:50%;
+left:50%;
+width:600px;
+height:auto;
+z-index:-100;
+-ms-transform:translateX(-50%) translateY(-50%);
+-moz-transform:translateX(-50%) translateY(-50%);
+-webkit-transform:translateX(-50%) translateY(-50%);
+transform:translateX(-50%) translateY(-50%);
+-ms-filter:blur(0px);
+filter:blur(0px);
+outline:solid
 }
 
 .background {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  width: 100%;
-  height: 100%;
-  z-index: -100;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  -webkit-filter: blur(5%);
-  -moz-filter: blur(5%);
-  -o-filter: blur(5%);
-  -ms-filter: blur(5%);
-  filter: blur(5%);
+position:fixed;
+top:50%;
+left:50%;
+width:100%;
+height:100%;
+z-index:-100;
+-ms-transform:translateX(-50%) translateY(-50%);
+-moz-transform:translateX(-50%) translateY(-50%);
+-webkit-transform:translateX(-50%) translateY(-50%);
+transform:translateX(-50%) translateY(-50%);
+-webkit-filter:blur(5%);
+-moz-filter:blur(5%);
+-o-filter:blur(5%);
+-ms-filter:blur(5%);
+filter:blur(5%)
 }
