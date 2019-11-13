@@ -2,6 +2,7 @@
 @font-face { font-family: fat; src: url('fonts/fat.ttf'); }
 @font-face { font-family: eightfiveone; src: url('fonts/851.ttf'); }
 @font-face { font-family: roman; src: url('fonts/HelveticaNeue-Roman.OTF'); }
+@font-face { font-family: mini; src: url('fonts/mini-wakuwaku-maru.otf'); }
 
 html,head,div,body,a {
 cursor:url(cursor/wii-cursor.png),auto!important
@@ -46,7 +47,7 @@ line-height:0;
 .links {
 color:#ffffe8;
 font-size:40px;
-font-family:'Fredoka One',cursive;
+font-family:mini;
 filter:blur(0.3px);
 position:absolute;
 top:50%;
