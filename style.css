@@ -3,6 +3,7 @@
 @font-face { font-family: eightfiveone; src: url('fonts/851.ttf'); }
 @font-face { font-family: roman; src: url('fonts/HelveticaNeue-Roman.OTF'); }
 @font-face { font-family: mini; src: url('fonts/mini-wakuwaku-maru.otf'); }
+@font-face { font-family: whitney; src: url('fonts/whitney.woff'); }
 
 html,head,div,body,a {
 cursor:url(cursor/wii-cursor.png),auto!important
@@ -43,14 +44,15 @@ line-height:0;
 
 .links {
 color:black;
-font-size:50px;
-font-family:Arial, Helvetica, sans-serif;
+font-size:40px;
+font-family: whitney;
+text-rendering: optimizeLegibility;
 filter:blur(0.7px);
 position:absolute;
 top:40%;
 left:30%;
 transform:translate(-50%,-50%);
-width:10%;
+width:5%;
 }
 
 .zoghon {
