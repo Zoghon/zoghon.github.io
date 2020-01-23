@@ -20,13 +20,13 @@ cursor:url("cursor/Wii\ Cursor\ 2\ Loading...ani"),auto!important
 }
 
 body {
-background:url();
-background-color:#f75700;
+background:url(images/corrupt3.gif);
+background-blend-mode: hard-light;
+background-color:black;
 background-position:absolute;
 background-position-x:50%;
 background-position-y:50%;
 background-repeat:no-repeat;
-background-size:cover;
 background-attachment:fixed
 }
 
@@ -49,25 +49,29 @@ color:black;
 font-size:25px;
 font-family:;
 font-weight: bolder;
-filter:blur(0.7px);
 text-align: center;
+filter:blur(0.7px);
 position:absolute;
 top:30%;
 left:50%;
+width:5%;
 transform:translate(-50%,-50%);
-width:3%;
+background-color: white;
+border: black 1px solid;
 }
 
 .zoghon {
 color:black;
 font-size:40px;
 font-family:old;
-letter-spacing:-3px;
+letter-spacing:-px;
 position:absolute;
 top:90%;
 left:50%;
 transform:translate(-50%,-50%);
 filter:blur(0.5px);
+border: black 1px solid;
+background-color: white;
 #-webkit-text-stroke:1px #000;
 #text-shadow:#000 .670517px .670517px 0px,#000 1.67052px 1.67052px 0px,#000 2.67052px 2.67052px 0px,#000 3.67052px 3.67052px 0px,#000 4.67052px 4.67052px 0px,#000 5.67052px 5.67052px 0px,#000 6.67052px 6.67052px 0px,#000 7.67052px 7.67052px 0px,#000 8.67052px 8.67052px 0;
 }
