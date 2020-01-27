@@ -20,14 +20,13 @@ cursor:url("cursor/Wii\ Cursor\ 2\ Loading...ani"),auto!important
 }
 
 body {
-background:url();
-background-blend-mode: hard-light;
-background-color:rgb(255, 255, 254);
+background:url(images/city.jpeg);
+background-color:black;
 background-position:absolute;
 background-position-x:50%;
 background-position-y:50%;
 background-repeat:no-repeat;
-background-attachment:fixed
+background-attachment:fixed;
 }
 
 a:link,a:visited {
@@ -45,7 +44,7 @@ line-height:0;
 }
 
 .href{
-color:rgb(000,000,001);
+color:black;
 font-size:25px;
 font-family:;
 font-weight: bolder;
@@ -54,44 +53,36 @@ filter:blur(0.7px);
 }
 
 .links {
-color:rgb(000,000,001);
-font-size:25px;
-font-family:old;
+color:rgb(0, 0, 0);
+font-size:35px;
+font-family:roman;
 font-weight: bolder;
 text-align: center;
 filter:blur(0.7px);
 position:absolute;
-top:55%;
-left:50%;
+top:43%;
+left:46.5%;
 width:8%;
+background-color: rgb(238, 238, 238);
 transform:translate(-50%,-50%);
-background-color: rgb(255, 255, 254);
-border: rgb(000,000,001) 1px solid;
+border: black 1px solid;
 }
 
-.insta, .steam, .mal{
-    border: rgb(000,000,001) 1px solid;
-}
-
-.hud {
-    border: rgb(000,000,001) 1px solid;
-    border-bottom-width: 301px;
+.insta, .steam, .mal, .hud{
+    border: black 1px solid;
 }
 
 .zoghon {
-color:rgb(000,000,001);
-font-size:40px;
-font-family:old;
+color:#FD3828;
+font-size:100px;
+font-family:eightfiveone;
 letter-spacing:-px;
 position:absolute;
 text-align: center;
-width: 107px;
-top:90%;
-left:50%;
+top:86%;
+left:80%;
 transform:translate(-50%,-50%);
 filter:blur(0.5px);
-border: rgb(000,000,001) 2px solid;
-background-color: rgb(255, 255, 254);
 #-webkit-text-stroke:1px #000;
 #text-shadow:#000 .670517px .670517px 0px,#000 1.67052px 1.67052px 0px,#000 2.67052px 2.67052px 0px,#000 3.67052px 3.67052px 0px,#000 4.67052px 4.67052px 0px,#000 5.67052px 5.67052px 0px,#000 6.67052px 6.67052px 0px,#000 7.67052px 7.67052px 0px,#000 8.67052px 8.67052px 0;
 }
