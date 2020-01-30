@@ -20,13 +20,14 @@ cursor:url("cursor/Wii\ Cursor\ 2\ Loading...ani"),auto!important
 }
 
 body {
-background:url(images/city.jpeg);
+background:url(images/spice.jpg);
 background-color:black;
 background-position:absolute;
 background-position-x:50%;
 background-position-y:50%;
 background-repeat:no-repeat;
 background-attachment:fixed;
+background-size: 50%;
 }
 
 a:link,a:visited {
@@ -53,34 +54,28 @@ filter:blur(0.7px);
 }
 
 .links {
-color:rgb(0, 0, 0);
+color:black;
 font-size:35px;
-font-family:roman;
-font-weight: bolder;
+font-family: 'Uncial Antiqua', cursive;
 text-align: center;
 filter:blur(0.7px);
 position:absolute;
-top:43%;
-left:46.5%;
-width:8%;
-background-color: rgb(238, 238, 238);
+top:53%;
+left:44.5%;
+width:10%;
+background-color: white;
 transform:translate(-50%,-50%);
-border: black 1px solid;
-}
-
-.insta, .steam, .mal, .hud{
-    border: black 1px solid;
 }
 
 .zoghon {
-color:#FD3828;
-font-size:100px;
+color:#FF7666;
+font-size:40px;
 font-family:eightfiveone;
 letter-spacing:-px;
 position:absolute;
 text-align: center;
-top:86%;
-left:80%;
+top:26%;
+left:62%;
 transform:translate(-50%,-50%);
 filter:blur(0.5px);
 #-webkit-text-stroke:1px #000;
