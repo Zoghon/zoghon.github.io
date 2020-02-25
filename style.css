@@ -1,5 +1,6 @@
 @font-face { font-family: hightide; src: url('fonts/HighTide.ttf'); }
 @font-face { font-family: eightfiveone; src: url('fonts/851.ttf'); }
+@font-face { font-family: oldish; src: url('fonts/oldish.woff2'); }
 
 html,head,div,body,a {
 cursor:url("cursor/wii-cursor.png"),auto!important
@@ -14,14 +15,14 @@ cursor:url("cursor/Wii\ Cursor\ 2\ Loading...ani"),auto!important
 }
 
 body {
-background:url(images/disk2.png);
-background-color:rgb(0, 0, 0);
+background:url(images/legosi.png);
+background-color:rgb(255, 255, 255);
 background-position:absolute;
-background-position-x:50%;
-background-position-y:50%;
+background-position-x:58%;
+background-position-y:53%;
 background-repeat:no-repeat;
 background-attachment:fixed;
-background-size: 50%;
+background-size: 25%;
 }
 
 a:link,a:visited {
@@ -41,7 +42,8 @@ line-height:0;
 .links {
 color:rgb(22, 22, 22);
 font-size:35px;
-font-family:cursive;
+font-family:oldish;
+font-style: italic;
 text-align: center;
 filter:blur(0.7px);
 position:absolute;
@@ -49,20 +51,22 @@ top:75%;
 left:46%;
 transform:translate(-50%,-50%);
 width:9%;
-background-color:white;
+-webkit-font-smoothing: antialiased;
 }
 
 .zoghon {
-color:#FF7666;
-font-size:40px;
-font-family:eightfiveone;
-letter-spacing:-px;
+color:rgb(228, 15, 15);
+font-size:100px;
+font-family: 'Abril Fatface', bold ;
+font-style: italic;
+letter-spacing:20px;
 position:absolute;
 text-align: center;
-top:15%;
+top:50%;
 left:50%;
 transform:translate(-50%,-50%);
 filter:blur(0.5px);
+-webkit-transform: rotate(90deg);
 }
 
 video#bgvid {
