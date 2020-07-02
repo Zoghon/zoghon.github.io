@@ -15,14 +15,14 @@ cursor:url("cursor/Wii\ Cursor\ 2\ Loading...ani"),auto!important
 }
 
 body {
-background:url(images/garage.jpg);
+background:url(images/lupincastle.gif);
 background-color:rgb(0, 0, 0);
 background-position:absolute;
 background-position-x:50%;
 background-position-y:50%;
 background-repeat:no-repeat;
 background-attachment:fixed;
-background-size:100%;
+background-size:50%;
 }
 
 a:link,a:visited {
@@ -37,7 +37,7 @@ font-style:italic;
 text-align:left;
 margin:left;
 margin-left: 20%;
-margin-top: 5%;
+margin-top: 10%;
 width:10%;
 text-rendering: optimizeSpeed;
 -webkit-font-smoothing: antialiased;
