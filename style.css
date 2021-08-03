@@ -155,6 +155,31 @@ font-family:coluna;
 font-size: 2vw;
 filter: blur(0.3px);
 }
+
+.bottom{
+margin: bottom;
+margin-top: 10%;
+background-color: black;
+font-family: whitney;
+width: 100%;
+color: white;
+text-align: center;
+position: relative;
+padding: 20px 2px;
+line-height: 0px;
+}
+
+.email{
+  margin: bottom;
+  background-color: black;
+  font-family: whitney;
+  width: 100%;
+  color: white;
+  text-align: center;
+  position: relative;
+  padding: 20px 2px;
+  line-height: 0px;
+}
 /* width */
 ::-webkit-scrollbar {
     width: 20px;
