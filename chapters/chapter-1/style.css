@@ -41,8 +41,13 @@ box-shadow: 0 0 3 2pt red;
 .chapter1 {
     line-height: 1.3;
     line-break: auto;
+    text-align: center;
 }
 
+.c{
+  font-family: coluna;
+  font-size: 3vw;
+}
 
 
 .unknowns {

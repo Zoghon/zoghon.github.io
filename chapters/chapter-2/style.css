@@ -1,0 +1,170 @@
+@font-face { font-family: hightide; src: url('fonts/HighTide.ttf'); }
+@font-face { font-family: couna; src: url('fonts/Coluna.otf'); }
+@font-face { font-family: oldish; src: url('fonts/oldish.woff2'); }
+@font-face {
+  font-family: whitney;
+  src: url(fonts/whitney.woff);
+}
+
+html,head,div,body,a {
+cursor:url("cursor/wii-cursor.png"),auto!important
+}
+
+a:hover {
+cursor:url("cursor/wii-help-ccw.png"),auto!important
+}
+
+.wait .progress{
+cursor:url("cursor/Wii\ Cursor\ 2\ Loading...ani"),auto!important
+}
+
+body {
+background:url(images/unknowns.png);
+background-color: rgba(0, 0, 0, 0.897);
+background-position:absolute;
+background-repeat:repeat;
+background-attachment:fixed;
+background-size:5%;
+background-blend-mode: color-burn;
+
+}
+
+a:link,a:visited {
+text-decoration:none;
+color: inherit;
+}
+
+a:hover {
+box-shadow: 0 0 3 2pt red;
+}
+
+.chapter1 {
+    line-height: 1.3;
+    line-break: auto;
+    text-align: center;
+}
+
+.c{
+  font-family: coluna;
+  font-size: 3vw;
+}
+
+.unknowns {
+color: white;
+font-family:coluna;
+font-style:none;
+display: block;
+margin:auto;
+margin-left: auto;
+margin-right: auto;
+margin-top: 2%;
+text-rendering: optimizeSpeed;
+-webkit-font-smoothing: antialiased;
+line-height: 1;
+padding: 10px;
+text-align: center;
+font-size: 4vw;
+}
+
+.title {
+    color: white;
+    font-family:coluna;
+    font-style:none;
+    display: block;
+    margin:auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-rendering: optimizeSpeed;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    font-size: 4vw;
+    }
+
+.story {
+font-style:none;
+font-family: whitney;
+text-align:left;
+margin:auto;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 4%;
+color: white;
+background-color: black;
+text-rendering: optimizeSpeed;
+-webkit-font-smoothing: antialiased;
+background-image:url(images/blood-png-1.png);
+outline: 2px solid red;
+width: 50%;
+padding: 20px;
+}
+
+.jon {
+  color:rgba(225,0,0,255);
+ }
+
+.seb{
+  color:rgba(0,175,225,255);
+  }
+  
+  .edan{
+  color:rgba(0,231,5,255);
+  }
+  
+  .ara{
+  color:rgba(230,229,34,255);
+  }
+  
+  .ron{
+  color:rgba(231,147,0,255);
+  }
+
+  .eddie{
+    color:rgb(160, 62, 17);
+    }
+
+  .heather{
+    color:rgb(199, 0, 116);
+    }
+
+  .luke{
+    color:rgb(66, 105, 78);
+    }
+
+  .kia{
+    color:rgb(111, 93, 192);
+    }
+
+  .c {
+    text-align: center;
+  } 
+  
+.links{
+  color: rgb(141, 141, 141);
+}
+
+p span {
+  display: block;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: red; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }
