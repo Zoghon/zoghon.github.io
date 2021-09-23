@@ -38,6 +38,14 @@ background-blend-mode: color-burn;
   max-width: 90%;
 }
 
+.names2{
+  text-align: center;
+  width: auto;
+  height: 2em;
+  background-color: rgb(80, 80, 80);
+  max-width: 90%;
+}
+
 a:link,a:visited {
 text-decoration:none;
 color: inherit;
