@@ -1,11 +1,10 @@
 @font-face { font-family: hightide; src: url('fonts/HighTide.ttf'); }
-@font-face { font-family: coluna; src: url('fonts/Coluna.otf'); }
+@font-face { font-family: couna; src: url('fonts/Coluna.otf'); }
 @font-face { font-family: oldish; src: url('fonts/oldish.woff2'); }
-@font-face { 
+@font-face {
   font-family: whitney;
   src: url(fonts/whitney.woff);
 }
-@font-face { font-family: metro; src: url('fonts/Metropolis-Bold.otf'); }
 
 html,head,div,body,a {
 cursor:url("cursor/wii-cursor.png"),auto!important
@@ -19,7 +18,7 @@ cursor:url("cursor/wii-help-ccw.png"),auto!important
 cursor:url("cursor/Wii\ Cursor\ 2\ Loading...ani"),auto!important
 }
 
-body {
+ody {
 background:url(images/unknowns.png);
 background-color: rgba(0, 0, 0, 0.897);
 background-position:absolute;
@@ -30,12 +29,16 @@ background-blend-mode: color-burn;
 
 }
 
-.names{
-  text-align: center;
-  width: auto;
-  height: 2em;
-  background-color: black;
-  max-width: 90%;
+body {
+background:url(images/OFFICIALPOSTER.png);
+background-color: rgba(0, 0, 0, 0.74);
+background-position:absolute;
+background-position-x:50%;
+background-position-y:50%;
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-size:100%;
+background-blend-mode: color-burn;
 }
 
 a:link,a:visited {
@@ -43,129 +46,146 @@ text-decoration:none;
 color: inherit;
 }
 
-a:hover {
-box-shadow: 0 0 3 2pt red;
+.jon {
+color:white;
+font-family:coluna;
+font-style:none;
+text-align:center;
+margin-left: 5%;
+margin-top: 3vw;
+width:17%;
+text-rendering: optimizeSpeed;
+-webkit-font-smoothing: antialiased;
+background-color: black;
+border-radius: 5pt;
+box-shadow: 0 0 0 2pt darkred;
 }
 
-.unknowns {
+.seb, .edan, .ara, .ron{
+font-family:coluna;
+font-style:none;
+text-align:center;
+margin-left: 5%;
+width:17%;
+text-rendering: optimizeSpeed;
+-webkit-font-smoothing: antialiased;
+border-radius: 5pt;
+box-shadow: 0 0 0 2pt darkred;
+background-color: black;
+}
+
+.seb{
+color:rgba(0,175,225,255);
+margin-top: 1vw;
+}
+
+.edan{
+color:rgba(0,231,5,255);
+margin-top: 1vw;
+}
+
+.ara{
+color:rgba(230,229,34,255);
+margin-top: 1vw;
+}
+
+.ron{
+color:rgba(231,147,0,255);
+margin-top: 1vw;
+left:50%;
+top:50%;
+}
+
+.chapters {
 color: white;
 font-family:coluna;
 font-style:none;
-display: block;
-margin:auto;
-margin-left: auto;
-margin-right: auto;
+text-align:center;
+margin-left: 5%;
+margin-top: -15%;
+width:17%;
+text-rendering: optimizeSpeed;
+-webkit-font-smoothing: antialiased;
+border-radius: 5pt;
+box-shadow: 0 0 0 2pt darkred;
+background-color: black;
+}
+
+a:hover {
+box-shadow: 0 0 3 2pt red;
+}
+    
+.disqus{
+margin-top: 5%;
+}
+
+.unknowns {
+color:rgb(255, 255, 255);
+font-family:coluna;
+font-style: none;
+margin:right;
+margin-left: 35%;
+margin-right: 15%;
 margin-top: 2%;
 text-rendering: optimizeSpeed;
 -webkit-font-smoothing: antialiased;
-line-height: 1;
-padding: 10px;
-text-align: center;
-font-size: 4vw;
+outline: 2px solid black;
+line-height: 0;
 }
-
-.title {
-    color: white;
-    font-family:coluna;
-    font-style:none;
-    display: block;
-    margin:auto;
-    margin-left: auto;
-    margin-right: auto;
-    text-rendering: optimizeSpeed;
-    -webkit-font-smoothing: antialiased;
-    line-height: 2;
-    text-align: center;
-    font-size: 5vw;
-    }
-
-.title3 {
-    color: white;
-    font-family:metro;
-    font-style:none;
-    display: block;
-    margin:auto;
-    margin-left: auto;
-    margin-right: auto;
-    text-rendering: optimizeSpeed;
-    -webkit-font-smoothing: antialiased;
-    line-height: 2;
-    text-align: center;
-    font-size: 2vw;
-    }
-
-    
-.title3 {
-  color: white;
-  font-family:metro;
-  font-style:none;
-  display: block;
-  margin:auto;
-  margin-left: auto;
-  margin-right: auto;
-  text-rendering: optimizeSpeed;
-  -webkit-font-smoothing: antialiased;
-  line-height: 2;
-  text-align: center;
-  font-size: 4vw;
-  text-shadow: 5px 5px 3px rgb(255, 0, 0);
-    }
-
 
 .story {
 font-style:none;
 font-family: whitney;
-margin:center;
-margin-left: 2.5%;
-margin-right: 2.5%;
-margin-top: 4%;
+text-align:center;
+margin:left;
+margin-left: 15%;
+margin-right: 5%;
+margin-top: 9%;
 color: white;
-background-color: rgb(15, 15, 15);
+background-color: rgba(0, 0, 0, 0.705);
 text-rendering: optimizeSpeed;
 -webkit-font-smoothing: antialiased;
-outline: 2px solid red;
-padding: 1px;
-float: left;
-width: 95%;
+background-image:url(images/blood.png);
+background-size: 100%;
+box-shadow: 0 0 0 2pt red;
+border-radius: 1%;
+padding: 1vw;
+width: 70%;
+background-blend-mode: color-burn;
 }
 
-.characters{
-width: 60%;
-display: inline-block;
-outline: 0 1 1 #000;
+.based{
+font-family:coluna;
+font-size: 2vw;
+filter: blur(0.3px);
 }
 
-.chaptercovers {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-bottom: 15px;
-  box-sizing: content-box;
-  display: inline-block;
-  margin: 1px;
-  padding: 1em;
-  text-align: left;
-  vertical-align: top;
-  white-space: normal;
-  max-width: 23em;
+.bottom{
+margin: bottom;
+margin-top: 10%;
+background-color: black;
+font-family: whitney;
+width: 100%;
+color: white;
+text-align: center;
+position: relative;
+line-height: 65%;
+height: 60px;
+box-shadow: 0 0 0 2pt red;
 }
 
-.chaptercovers2 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-bottom: 15px;
-  box-sizing: content-box;
-  display: inline-block;
-  margin: 1px;
-  padding: 1em;
-  text-align: left;
-  vertical-align: top;
-  white-space: normal;
-  filter: contrast(70%);
-  max-width: 23em;
+.email{
+  margin: bottom;
+  background-color: black;
+  font-family: whitney;
+  width: 100%;
+  color: white;
+  text-align: center;
+  position: relative;
+  padding: 20px 0px;
+  line-height: 0px;
+  box-shadow: 0 0 0 2pt red;
 }
-
 /* width */
 ::-webkit-scrollbar {
     width: 20px;
