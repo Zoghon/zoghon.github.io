@@ -6,6 +6,11 @@
   src: url(fonts/whitney.woff);
 }
 
+@viewport {
+  width: device-width;
+  zoom: 1.0 ;
+}
+
 html,head,div,body,a {
 cursor:url("cursor/wii-cursor.png"),auto!important
 }
@@ -37,28 +42,13 @@ background-position-x:50%;
 background-position-y:50%;
 background-repeat:no-repeat;
 background-attachment:fixed;
-background-size:100%;
+background-size:150%;
 background-blend-mode: color-burn;
 }
 
 a:link,a:visited {
 text-decoration:none;
 color: inherit;
-}
-
-.jon {
-color:white;
-font-family:coluna;
-font-style:none;
-text-align:center;
-margin-left: 5%;
-margin-top: 3vw;
-width:17%;
-text-rendering: optimizeSpeed;
--webkit-font-smoothing: antialiased;
-background-color: black;
-border-radius: 5pt;
-box-shadow: 0 0 0 2pt darkred;
 }
 
 .seb, .edan, .ara, .ron{
@@ -103,13 +93,31 @@ font-style:none;
 text-align:center;
 margin-left: 5%;
 margin-top: -15%;
-width:17%;
+width:20%;
+font-size: xx-large;
 text-rendering: optimizeSpeed;
 -webkit-font-smoothing: antialiased;
 border-radius: 5pt;
 box-shadow: 0 0 0 2pt darkred;
 background-color: black;
 }
+
+.jon {
+  color:white;
+  font-family:coluna;
+  font-style:none;
+  text-align:center;
+  margin-left: 5%;
+  margin-top: 3vw;
+  width:20%;
+  font-size: xx-large;
+  text-rendering: optimizeSpeed;
+  -webkit-font-smoothing: antialiased;
+  background-color: black;
+  border-radius: 5pt;
+  box-shadow: 0 0 0 2pt darkred;
+  }
+  
 
 a:hover {
 box-shadow: 0 0 3 2pt red;
@@ -137,16 +145,12 @@ line-height: 0;
 font-style:none;
 font-family: whitney;
 text-align:center;
-margin:left;
 margin-left: 15%;
-margin-right: 5%;
-margin-top: 9%;
+font-size: larger;
 color: white;
 background-color: rgba(0, 0, 0, 0.705);
 text-rendering: optimizeSpeed;
 -webkit-font-smoothing: antialiased;
-background-image:url(images/blood.png);
-background-size: 100%;
 box-shadow: 0 0 0 2pt red;
 border-radius: 1%;
 padding: 1vw;
@@ -156,7 +160,7 @@ background-blend-mode: color-burn;
 
 .based{
 font-family:coluna;
-font-size: 2vw;
+font-size: xx-large;
 filter: blur(0.3px);
 }
 
@@ -172,6 +176,13 @@ position: relative;
 line-height: 65%;
 height: 60px;
 box-shadow: 0 0 0 2pt red;
+}
+
+.links {
+margin-top: 2.5%;
+margin-left: 0.5%;
+margin-right: 80%;;
+padding: 1vw;
 }
 
 .email{
@@ -206,4 +217,11 @@ box-shadow: 0 0 0 2pt red;
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
     background: #b30000; 
+  }
+
+  @media screen and (max-width: 320px) {
+    /* comes into effect for screens less than or equal to 320 pixels */
+    .story {
+      width: 520px ;
+    }
   }

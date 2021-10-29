@@ -60,7 +60,7 @@ border-radius: 5pt;
 box-shadow: 0 0 0 2pt darkred;
 line-height: 0px;
 background:url('images/allherohighlogo.png');
-background-color: darkred;
+background-color: rgba(139, 0, 0, 0.808);
 background-blend-mode: color-burn;
 }
 

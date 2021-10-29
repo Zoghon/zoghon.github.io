@@ -19,12 +19,12 @@ cursor:url("cursor/Wii\ Cursor\ 2\ Loading...ani"),auto!important
 }
 
 body {
-background:url(images/unknowns.png);
-background-color: rgba(0, 0, 0, 0.897);
+background:url(images/cloud.png);
+background-color: rgba(0, 0, 0, 0.644);
 background-position:absolute;
-background-repeat:repeat;
+background-repeat:none;
 background-attachment:fixed;
-background-size:5%;
+background-size:100%;
 background-blend-mode: color-burn;
 
 }
@@ -46,7 +46,7 @@ box-shadow: 0 0 3 2pt red;
 
 .c{
   font-family: coluna;
-  font-size: 3vw;
+  font-size: xx-large;
 }
 
 
@@ -96,7 +96,7 @@ text-rendering: optimizeSpeed;
 -webkit-font-smoothing: antialiased;
 background-image:url(images/blood-png-1.png);
 outline: 2px solid red;
-width: 50%;
+width: 70%;
 padding: 20px;
 }
 
