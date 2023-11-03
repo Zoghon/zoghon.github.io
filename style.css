@@ -35,21 +35,31 @@ background-blend-mode: color-burn;
 }
 
 body {
+<<<<<<< HEAD
 background:url(images/OFFICIALPOSTER.png);
 background-color: rgba(0, 0, 0, 0.74);
+=======
+background:url(images/garage.jpg);
+background-color:rgb(0, 0, 0);
+>>>>>>> parent of 6b01120 (LUPIN)
 background-position:absolute;
 background-position-x:50%;
 background-position-y:50%;
 background-repeat:no-repeat;
 background-attachment:fixed;
+<<<<<<< HEAD
 background-size:150%;
 background-blend-mode: color-burn;
+=======
+background-size:100%;
+>>>>>>> parent of 6b01120 (LUPIN)
 }
 
 a:link,a:visited {
 text-decoration:none;
 color: inherit;
 }
+<<<<<<< HEAD
 
 .seb, .edan, .ara, .ron{
 font-family:coluna;
@@ -57,6 +67,18 @@ font-style:none;
 text-align:center;
 margin-left: 5%;
 width:17%;
+=======
+.links {
+color:rgb(255, 255, 255);
+font-size:200%;
+font-family:oldish;
+font-style:italic;
+text-align:left;
+margin:left;
+margin-left: 20%;
+margin-top: 5%;
+width:10%;
+>>>>>>> parent of 6b01120 (LUPIN)
 text-rendering: optimizeSpeed;
 -webkit-font-smoothing: antialiased;
 border-radius: 5pt;
